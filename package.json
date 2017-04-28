@@ -2,9 +2,10 @@
   "name": "lista-de-tarefas-api",
   "version": "1.0.0",
   "description": "API - Lista de Tarefas",
-  "main": "index.js",
+  "main": "src/loader.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name todo-app"
   },
   "repository": {
     "type": "git",

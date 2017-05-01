@@ -18,7 +18,6 @@
     "url": "https://github.com/leonardocintra/lista-de-tarefas-api/issues"
   },
   "homepage": "https://github.com/leonardocintra/lista-de-tarefas-api#readme",
-  
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
